@@ -1,0 +1,30 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    .box-item{
+        box-shadow: 0 0 7px 0 #ccc;
+        width: 400px;
+        padding: 50px;
+        text-align: center;
+        .icon{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            div{
+                width: 70px;
+                font-size: 20px;
+                border: 0;
+            }
+            .gg{
+                background-color: rgb(219, 38, 38);
+            }
+            .fb{
+                background-color: rgb(22, 42, 223);
+            }
+        }
+    }
+}
